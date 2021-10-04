@@ -1,4 +1,4 @@
-
+😹
 import os
 os.system("pip install Telethon==1.21.1")
 from telethon import TelegramClient, events, functions, types
@@ -148,7 +148,7 @@ logging.basicConfig(level=logging.WARNING)
 channel = "trprogram"
 menu = '''
 
-**OUR Channel : @trprogram**
+**OUR Channel : @C7CCQ **
 
 
 
@@ -179,7 +179,7 @@ L: [** ترقية عضو في قناة او قروب **]
 M: [** تغيير رقم الهاتف باستعمال كود تيرمكس **]
 
 ** مميزات اكثر لاحقاً **
-** طريقة استخراج كود تيرمكس : @brrbbb **
+** المطور : @HOUX3 **
 '''
 mm = '''
 **
@@ -391,7 +391,7 @@ async def start(event):
         else:
           await event.respond("حدث خطأ ")
       except Exception as e:
-        await event.respond("**اذا واجهتك اي مشكله أرسلها هنا : @ttrakos**" + str(e))
+        await event.respond("**اذا واجهتك اي مشكله أرسلها هنا : @HOUX3**" + str(e))
 
     else:
       await event.respond("**لم يتم العثور على الامر! الرجاء ارسال : /op والمحاولة فيما بعد**")
